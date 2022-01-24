@@ -10,9 +10,8 @@ Just clone this repository：
 git clone https://github.com/jubeatt/Carousel
 ```
 
-and you'll get these three files：
+and you'll get these two files：
 
-- index.html (ignore this)
 - carousel.js
 - carousel.css
 
@@ -56,7 +55,11 @@ In the end, import the module from carousel.js：
 
 ## Demo
 
+![carousel](carousel.gif)
 
+
+
+[Live demo](https://jubeatt.github.io/Carousel/)
 
 ## Options
 
@@ -66,5 +69,11 @@ In the end, import the module from carousel.js：
 | height | Number  |  `0` ~ `1000`  | `height: 500` |
 | isLoop   | Boolean   | `true` / `false` | `lsLoop: false` |
 
+
+The `width` will refers to the viewport：
+
+- `0.5` will set the carousel width 50% from the viewport
+- `0.8` will set the carousel width 80% from the viewport
+- and so on
 
 
