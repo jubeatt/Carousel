@@ -1,4 +1,4 @@
-function createCarousel({width=0.8, height=500, isLoop=false}) {
+export function createCarousel({width=0.8, height=500, isLoop=false}) {
 
   // 幻燈片指標
   let index = 0

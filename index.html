@@ -21,21 +21,24 @@
   <div class="carousel">
     <div class="carousel__container">
       <div class="carousel__item">
-        <img src="https://i.picsum.photos/id/521/1200/800.jpg?hmac=weiMU8jL_i44xdNS3ljNbUBQPqeLIgKItdYV8AX6inM">
+        <img src="https://i.picsum.photos/id/191/1200/700.jpg?hmac=I4cnjozUgQV-wfwxWqq6xbA6GPOjm3q5HXzRxF8IB6s">
       </div>
       <div class="carousel__item">
-        <img src="https://i.picsum.photos/id/521/1200/800.jpg?hmac=weiMU8jL_i44xdNS3ljNbUBQPqeLIgKItdYV8AX6inM">
+        <img src="https://i.picsum.photos/id/191/1200/700.jpg?hmac=I4cnjozUgQV-wfwxWqq6xbA6GPOjm3q5HXzRxF8IB6s">
       </div>
       <div class="carousel__item">
-        <img src="https://i.picsum.photos/id/521/1200/800.jpg?hmac=weiMU8jL_i44xdNS3ljNbUBQPqeLIgKItdYV8AX6inM">
+        <img src="https://i.picsum.photos/id/191/1200/700.jpg?hmac=I4cnjozUgQV-wfwxWqq6xbA6GPOjm3q5HXzRxF8IB6s">
+      </div>
+      <div class="carousel__item">
+        <img src="https://i.picsum.photos/id/191/1200/700.jpg?hmac=I4cnjozUgQV-wfwxWqq6xbA6GPOjm3q5HXzRxF8IB6s">
       </div>
     </div>
     <div class="carousel__buttons-block"></div>
     <button class="carousel__prev-button fas fa-chevron-left"></button>
     <button class="carousel__next-button fas fa-chevron-right"></button>
   </div>
-  <script src="./carousel.js"></script>
-  <script>
+  <script type="module">
+    import { createCarousel } from './carousel.js'
     createCarousel({width: 0.8, height: 500, isLoop: false})
   </script>
 </body>
